@@ -45,7 +45,7 @@ $(document).ready(function() {
       src: '<div class="white-popup">' +
        '<h3 id="headline">' + 'Heart Beats' + '</h3>' +
         '<div class="img-popup">' +
-      '<img src="HeartBeats_PG2.jpeg">' +
+      '<img src="HeartBeats_PG2.jpg">' +
          '</div>' + 
       '</div>',
       title: 'Heart Beats 2',
