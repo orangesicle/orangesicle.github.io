@@ -33,7 +33,10 @@ $(document).ready(function() {
   $('#heartbeats').magnificPopup({
   items: {
       src: '<div class="white-popup">' +
-      '<h3 id="headline">' + 'Coming Soon' + '</h3>' +
+      '<h3 id="headline">' + 'Heart Beats' + '</h3>' +
+     '<div class="img-popup">' +
+      '<img src="HeartBeats.jpg">' +
+         '</div>' +
       '</div>',
       type: 'inline'
   },
