@@ -38,7 +38,7 @@ $(document).ready(function() {
       '<img src="HeartBeats.jpg">' +
          '</div>' +
       '</div>',
-      title: 'Heart Beats 2',
+      title: 'Heart Beats 1',
       type: 'inline'
   },
      {
