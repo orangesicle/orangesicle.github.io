@@ -55,8 +55,7 @@ $(document).ready(function() {
   gallery: {
       enabled: true
     },
-  midClick: true
-
+  type: 'inline'
  });
 
   $('#grace-blog').magnificPopup({
