@@ -31,21 +31,33 @@ $(document).ready(function() {
  });
 
   $('#heartbeats').magnificPopup({
-  items: {
+  items: [{
       src: '<div class="white-popup">' +
       '<h3 id="headline">' + 'Heart Beats' + '</h3>' +
      '<div class="img-popup">' +
       '<img src="HeartBeats.jpg">' +
          '</div>' +
       '</div>',
+      title: 'Heart Beats 2',
       type: 'inline'
   },
-  closeBtnInside: true,
+     {
+      src: '<div class="white-popup">' +
+       '<h3 id="headline">' + 'Heart Beats' + '</h3>' +
+        '<div class="img-popup">' +
+      '<img src="HeartBeats_PG2.jpeg">' +
+         '</div>' + 
+      '</div>',
+      title: 'Heart Beats 2',
+      type: 'inline'
+    } 
+  ],
+  gallery: {
+      enabled: true
+    },
   midClick: true
 
  });
-
-
 
   $('#grace-blog').magnificPopup({
   items: [{
