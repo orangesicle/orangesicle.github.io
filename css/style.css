@@ -322,7 +322,7 @@ object {
  border-bottom: 1px solid #ff4a6a;
 }
 
- .k, .l, .m, .n, .o, .p{
+ .k, .l, .m, .n, .o, .p, .v{
     width: 35%;
     height: 35%;
     min-width: 190px;
@@ -361,6 +361,12 @@ object {
   background-size: 95% 95%;
   border: 3px solid  #ff3ba5;;
   
+}
+
+.v {
+  background: url('../Logos/wg.png') center no-repeat;
+  background-size: 95% 95%;
+  border: 3px solid  #ff3ba5;;
 }
 
 
